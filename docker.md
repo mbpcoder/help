@@ -118,3 +118,15 @@ run a docker image and use mynet network this way running docker container can a
 ```bash
 docker run redis --network mynet
 ```
+
+Debug docker containers
+```bash
+docker logs <container_id>
+```
+
+Debug docker containers and tail -f
+```bash
+docker logs <container_id> -f
+```
+
+
